@@ -1,0 +1,362 @@
+/************************************************************
+2015
+LICENCE :
+Free Template de {SelMaK_} - Yann (Divrezstudio.fr) 
+est mis à disposition selon 
+les termes de la licence Creative Commons Attribution 
+- Pas d'Utilisation Commerciale 
+- Pas de Modification 4.0 International.
+Les autorisations au-delà du champ de cette licence 
+peuvent être obtenues à kresium@gmail.com.
+http://creativecommons.org/licenses/by-nc-nd/4.0/ 
+*************************************************************
+File name: main.css
+File ver. 1.0.1 (Février 2015)
+Author File: Yann - {SelMaK_} (Divrezstudio)
+Author URL : http://www.divrezstudio.fr
+************************************************************/
+
+/*
+Body, links, options and Header
+************************************************************/
+body{
+	background-color:#000;
+	color:#000000;
+}
+
+a:link, a{}
+
+a:visited{
+	color:#333333;
+}
+
+
+.smalltext{
+    color: #999;
+}
+
+
+.colortxt{
+	color:#179a92;
+	font-size: inherit;
+}
+
+
+.citation{
+    color:#ffffff;
+    border-top:10px solid #222222;
+}
+
+/**
+* Style section
+************************************************************/
+
+.blackBg{
+	background:url(../pictures/bgBlack.png);
+}
+
+.whitebg{
+	background:url(../pictures/background-white.png);
+	border-top: 10px solid #c9c9c9;
+}
+
+.bgcolor{
+	color:#ffffff;
+}
+
+
+.border{
+	background-color:#333333;
+}
+
+/* Header */
+header{
+	background:url(../pictures/bg.jpg) no-repeat center bottom fixed;
+}
+
+/* col */
+.colbg{
+	background-color: #f6f6f6;
+    border: 1px solid #e5e5e5;
+}
+
+.navbar-default{
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-bottom: 1px solid white !important;
+    border-top: 1px solid white !important;
+
+}
+
+/* Welcome */
+section#welcome, section#feedback, section#headtitle, .titlepage{
+ 	color:#ffffff;
+ }
+
+section#welcome p, section#headtitle p, .titlepage p{
+ 	color:#ffffff;
+ }
+
+ /* Feedback */
+
+ section#feedback h1.black, h1.black {
+ 	color:#585858;
+ }
+
+section#feedback .white input.white, section#feedback .white textarea.white{
+    background-color:#f6f6f6;
+    border: 1px solid #ffffff;
+    color: #777777;
+    
+ }
+
+ /** Welcome Link **/
+
+a.button, button.button-blue, button.button-blue-bis{
+	color:#ffffff;
+	text-shadow:1px 0px #000000;
+}
+
+button.button-blue-bis:hover{
+	background-color:#333333;
+	border-color:#000000;
+}
+
+a.button:hover, button.button:hover{
+	color:#ffffff;
+}
+
+a.button-blue:hover, button.button-blue:hover{
+	background-color:#ffffff;
+	border:2px solid #ffffff;
+	color:#000000;
+}
+
+a.button-opac, button.button-opac{
+	border:2px solid #ffffff;
+}
+a.button-opac:hover, button.button-opac:hover{
+	border:2px solid #dbdbdb;
+}
+a.button-price:hover{
+    background-color:#333333;
+}
+
+/* Hover label nav.li */
+
+ul.nav li.active .label-default{
+	background-color:#ffffff;
+	color:#428bca;
+}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	background-color:#179a92 !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+	background-color:#179a92 !important;
+	color:#ffffff;
+}
+
+.bgcolor, a.button-blue, button.button-blue, button.button-blue-bis, .pricing-plan-price, .button-color, .stream-staff-link a, .link-table a,
+.btn-primary{
+	background-color:#179a92;
+
+}
+
+.btn-primary, .btn-primary:hover{
+	border-color:#1f6b66;
+}
+
+a.btn-primary{color:#ffffff !important;}
+
+.btn-primary:hover{
+	background-color:#1f6b66;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:#252525;
+	font-size:1em;
+	border-radius: 4px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	background-color:#ffffff;
+}
+
+.back-black{
+	background-color:#292929;
+	color:#ffffff;
+}
+
+p.description {
+    color: #666;
+}
+
+.pricing-plan h3{
+	background-color:#0968ab;
+}
+
+#back-menu-logo nav a:link{
+	color:#252525;
+}
+#back-menu-logo nav .active a{
+	color:#ffffff !important;
+}
+
+
+a.button-blue, button.button-blue, button.button-blue-bis{
+	background-color:#179a92;
+	border:2px solid #179a92;
+	border-bottom-color: #114340;
+}
+
+.stream-staff-link a, .link-table a{
+	border-bottom:2px solid #9d7029;
+}
+.link-table a{text-transform:none !important;}
+
+/* Toolbar options */
+.tooloptions{
+    background-color:#179a92;
+    border-top: 10px solid #c9c9c9;
+    color:#c9c9c9;
+}
+
+.feature-item {
+	background-color:#f3f3f3;
+	color:#252525;
+}
+
+.feature-icon {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.feature-item:hover, .feature-icon:hover, .feature-item > span:hover  {
+    background-color:#ffffff;
+    color:#179a92;
+}
+
+section#feedback input.black, section#feedback .black textarea.black, section#feedback textarea{
+    background-color: #222222;
+    border-color: #000000 #444444 #444 #000000;
+    color: #777777;
+}
+
+.orangeBg{
+	background:url(../pictures/bgOrange.png);
+}
+
+.orangeSoldiers{
+	background:url(../pictures/backW.jpg);
+	background-size:cover;
+}
+
+/*Button*/
+.buttonBig{
+    color:#ffffff;
+    text-shadow:1px 0 #000000;
+}
+
+.buttonWhite{
+    border-radius: 5px;   
+}
+
+ .homeColorLink {
+    background-color: #11817a;
+    box-shadow: 0 1px 0 #18c3b9 inset, 0 5px 0 0 #084b47, 0 10px 5px #222;
+    border-radius: 5px;
+    /*0 1px 0 #a96800 inset, 0 5px 0 0 #8f5800, 0 10px 5px #000*/
+}
+
+.homeColorLink:active {
+    background-image: linear-gradient(bottom, rgb(62,51,46) 100%, rgb(101,86,78) 0%);
+    box-shadow: inset 0px 1px 0px #18c3b9, 0px 2px 0px 0px #084b47, 0px 5px 3px #222;
+}
+
+.homeColorLink::before {
+    background-color:#1f6b66;
+    box-shadow: inset 0px 1px 0px #114340, 0px 1px 0px #114340;
+}
+
+.homeColorLink:active: {
+    box-shadow: inset 0px 1px 0px #114340, 0px 3px 0px #114340, 0px 6px 3px #114340;
+}
+
+/* Big Button */
+a.buttonBig:hover, a.buttonBig:visited, a.buttonBig:active{
+    color:#f4f4f4;
+}
+.buttonWhite{
+    background: rgba(255, 255, 255, 0.7);
+    background-image: linear-gradient(bottom, rgb(62,51,46) 0%, rgb(101,86,78) 100%);
+    box-shadow: inset 0px 1px 0px #eeeeee, 0px 5px 0px 0px #999999, 0px 10px 5px #222;    
+}
+
+a.buttonWhite{
+	color:#333333 !important;
+	text-shadow:1px 0 white;
+}
+
+/* White */
+
+.buttonWhite:active {
+    top:3px;
+}
+
+.buttonWhite::before {
+    background-color:#959595;
+    box-shadow: inset 0px 1px 0px #525252, 0px 1px 0px #c9c9c9;
+}
+
+.buttonWhite:active::before {
+    box-shadow: inset 0px 1px 0px #919191, 0px 3px 0px #555555, 0px 6px 3px #888;
+}
+
+/* Black */
+
+.buttonBlack:active {
+    background-image: linear-gradient(bottom, rgb(62,51,46) 100%, rgb(101,86,78) 0%);
+    box-shadow: inset 0px 1px 0px #fffcf7, 0px 2px 0px 0px #949494, 0px 5px 3px #222;
+}
+
+.buttonBlack::before {
+    background-color:#555555;
+    box-shadow: inset 0px 1px 0px #000000, 0px 1px 0px #888888;
+}
+
+.buttonBlack:active::before {
+    box-shadow: inset 0px 1px 0px #919191, 0px 3px 0px #555555, 0px 6px 3px #666666;
+}
+
+/*bottom footer */
+
+/* Copyright */
+#footer{
+	background-color: #1b1b1b;
+	border-bottom:1px solid #2a2a2a;
+}
+
+#copyright{
+    background-color: #000000;
+    color:#888;
+    text-shadow: 1px 1px #000000;
+}
+
+#copyright a{
+    color:#dbdbdb;
+}
+
+#bottompage{
+	color:#ffffff;
+	margin: 20px 0;
+}
+
+a.bottomLink{
+	color:#179a92 !important;
+	font-size:2.4em;
+	font-weight:bold;
+}
+
+
