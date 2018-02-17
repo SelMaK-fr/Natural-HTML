@@ -7,7 +7,7 @@ les termes de la licence Creative Commons Attribution
 - Pas d'Utilisation Commerciale 
 - Pas de Modification 4.0 International.
 Les autorisations au-delà du champ de cette licence 
-peuvent être obtenues à kresium@gmail.com.
+peuvent être obtenues à divrezstudio@gmail.com.
 http://creativecommons.org/licenses/by-nc-nd/4.0/ 
 *************************************************************
 Theme ver. 1.0.0 (Aout 2016) 19:35
